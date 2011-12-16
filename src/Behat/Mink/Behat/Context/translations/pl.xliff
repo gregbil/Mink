@@ -8,7 +8,7 @@
         </trans-unit>
         <trans-unit id="i-go-to-page">
             <source><![CDATA[/^(?:|I )go to "(?P<page>[^"]+)"$/]]></source>
-            <target><![CDATA[/^(?:|że )odwiedzę stronę"(?P<page>[^"]+)"$/]]></target>
+            <target><![CDATA[/^(?:|że )odwiedzę stronę "(?P<page>[^"]+)"$/]]></target>
         </trans-unit>
         <trans-unit id="reload-the-page">
             <source><![CDATA[/^(?:|I )reload the page$/]]></source>
@@ -24,7 +24,7 @@
         </trans-unit>
         <trans-unit id="i-press-button">
             <source><![CDATA[/^(?:|I )press "(?P<button>(?:[^"]|\\")*)"$/]]></source>
-            <target><![CDATA[/^(?:|że )nacisnę przycisk(?P<button>(?:[^"]|\\")*)"$/]]></target>
+            <target><![CDATA[/^(?:|że )nacisnę przycisk "(?P<button>(?:[^"]|\\")*)"$/]]></target>
         </trans-unit>
         <trans-unit id="i-follow-link">
             <source><![CDATA[/^(?:|I )follow "(?P<link>(?:[^"]|\\")*)"$/]]></source>
@@ -52,7 +52,7 @@
         </trans-unit>
         <trans-unit id="i-check-option">
             <source><![CDATA[/^(?:|I )check "(?P<option>(?:[^"]|\\")*)"$/]]></source>
-            <target><![CDATA[/^(?:|że )zaznaczę opcję"(?P<option>(?:[^"]|\\")*)"$/]]></target>
+            <target><![CDATA[/^(?:|że )zaznaczę opcję "(?P<option>(?:[^"]|\\")*)"$/]]></target>
         </trans-unit>
         <trans-unit id="i-uncheck-option">
             <source><![CDATA[/^(?:|I )uncheck "(?P<option>(?:[^"]|\\")*)"$/]]></source>
@@ -60,7 +60,7 @@
         </trans-unit>
         <trans-unit id="i-attach-the-file-to-field">
             <source><![CDATA[/^(?:|I )attach the file "(?P<path>[^"]*)" to "(?P<field>(?:[^"]|\\")*)"$/]]></source>
-            <target><![CDATA[/^(?:|że )załączę plik"(?P<path>[^"]*)" w polu "(?P<field>(?:[^"]|\\")*)"$/]]></target>
+            <target><![CDATA[/^(?:|że )załączę plik "(?P<path>[^"]*)" w polu "(?P<field>(?:[^"]|\\")*)"$/]]></target>
         </trans-unit>
         <trans-unit id="i-should-see-text">
             <source><![CDATA[/^(?:|I )should see "(?P<text>(?:[^"]|\\")*)"$/]]></source>
